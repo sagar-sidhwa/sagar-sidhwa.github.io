@@ -1,6 +1,6 @@
-# Sagar Sidhwa's Portfolio
+# Sagar Sidhwa's Portfolio (https://sagar-sidhwa.github.io/aboutme)
 
-Welcome to my portfolio! -> ()
+Welcome to my portfolio! -> (https://sagar-sidhwa.github.io/aboutme)
 
 ## About Me
 
@@ -61,6 +61,6 @@ Here are some of the notable projects that I have worked on:
 
 ## Contact
 
-Thank you for visiting my portfolio. If you’re interested in collaborating or exploring potential opportunities, I’d be delighted to connect. Please feel free to reach out through my [LinkedIn](https://www.linkedin.com/in/sagar-sidhwa) or drop me a [message](#).
+Thank you for visiting my portfolio. If you’re interested in collaborating or exploring potential opportunities, I’d be delighted to connect. Please feel free to reach out through my [LinkedIn](https://www.linkedin.com/in/sagar-sidhwa) or drop me a [message](https://sagar-sidhwa.github.io/aboutme).
 
 Looking forward to connecting with you!
