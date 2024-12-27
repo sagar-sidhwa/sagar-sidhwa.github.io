@@ -1,256 +1,686 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>About Me :)</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagar Sidhwa Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="is-preload">
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="aboutme.html">
+                <img src="assets/ss_signature.png" alt="Sagar Sidhwa Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" id="about-nav">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience" id="experience-nav">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" id="projects-nav">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#research">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+    <hr>
+    <section id="profile">
+        <img src="assets/ss_profile.jpg" alt="Sagar Sidhwa Profile Photo">
+        <div class="profile-text">
+            <p style="text-align: center;">Hello, I’m</p>
+            <h1 style="text-align: center;">Sagar Sidhwa</h2>
+                <p style="text-align: center;">MS CS Graduate Student '25 (Major: CS Artificial Intelligence)
+                    @Binghamton University</p>
+                <p>
+                    An aspiring Software and AI Engineer using cutting-edge AI and machine learning
+                    to transform data into actionable insights. With hands-on experience in both academic and industry
+                    settings, I integrate software development with innovative AI solutions to tackle complex
+                    challenges.
+                    <u> <b>I’m actively looking for new and exciting opportunities in Software, AI, and ML roles</b></u>
+                    to
+                    further contribute to impactful technology that shapes the future of tech.
+                </p>
+                <!-- Add social media links with icons -->
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/sagar-sidhwa" target="_blank" class="social-link">
+                        <i class="bi bi-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/sagar-sidhwa" target="_blank" class="social-link">
+                        <i class="bi bi-github"></i> GitHub
+                    </a>
+                    <a href="https://www.instagram.com/sagar_sidhwa/" target="_blank" class="social-link">
+                        <i class="bi bi-instagram"></i> Instagram
+                    </a>
+                </div>
+        </div>
+    </section>
 
-		<!-- Header -->
-		<header id="header">
-			<a href="aboutme.html" class="logo">Sagar Sidhwa</a>
-		</header>
 
-		<!-- Nav -->
-		<nav id="nav">
-			<ul class="links">
-				<li class="active"><a href="aboutme.html">About Me :)</a></li>
-				<li><a href="projects.html">Portfolio & Projects</a></li>
-				<li><a href="workexp.html">Professional Expertise</a></li>
-			</ul>
-			<ul class="icons">
-				<li><a href="https://www.linkedin.com/in/sagar-sidhwa" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				<li><a href="https://github.com/sagar-sidhwa" target="_blank" class="icon brands fa-github-square"><span class="label">GitHub</span></a></li>
-				<li><a href="https://www.instagram.com/sagar_sidhwa/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-			</ul>
-		</nav>
+    <section id="about">
+        <hr>
+        <br>
+        <br>
+        <div class="alert alert-secondary" role="alert">
+            <span><i class="fas fa-user" style="font-size: 2rem; color: #333;"></i></span>
+            <p>Gain more insights</p>
+            <h1 style="color: #333;">About Me :)</h1>
+        </div>
+        <br>
 
-		<!-- Main -->
-		<div id="main">
-			<!-- Post -->
-			<section class="post">
-				<header class="major">
-					<span class="date"><i class="fas fa-address-card"></i> & <i class="fas fa-info"></i></span>
-					<h1>Greetings! <br />Insights into My Professional Journey :)</h1>
-					<p>An aspiring Software and AI Engineer using cutting-edge AI and machine learning to transform data into actionable insights. With hands-on experience in both academic and industry settings, I integrate software development with innovative AI solutions to tackle complex challenges. From optimizing software development to pioneering advancements in meaningful insights, ML model development, and AI utilization, my expertise drives impactful technology that shapes the future of tech.</p>
-				</header>
-				<div class="image main"><img src="images/linkedin.jpg" alt="" /></div>
-				<p>Hello, I’m Sagar Sidhwa, currently pursuing a Master’s in Computer Science with a focus and
-					specialization on Artificial Intelligence (as my major - CS Artificial Intelligence) at (SUNY) State University of New York at
-					Binghamton | (Binghamton University). I have a robust background in Machine Learning, AI, Data
-					Science, and Data Analysis, supported by over two years of professional Software Engineer and
-					Development experience and a foundational degree in Computer Engineering from the University of
-					Mumbai. I leverage these skills to develop innovative solutions that integrate software development
-					with Artificial Intelligence and Machine Learning.</p>
-				<p>My academic journey has provided me with a thorough understanding of both foundational and advanced
-					technologies. At Binghamton University, I am honing my Master's in Computer Science with an
-					expertise (Major's) in Artificial Intelligence (MSCS-AI). My coursework, including Design & Analysis
-					Comp Algorithms (Data Structures and Algorithms), Operating Systems, Introduction To Data Mining,
-					Social Media Data Science Pipeline, Intro to Machine Learning, Intro to Artificial Intelligence,
-					Database Systems, Programming Languages, Systems Programming, has further enhanced my expertise in
-					complex data analysis, model development, and software development and programming.</p>
-				<p>Professionally, I have worked as a Software Engineer at LTIMindtree in Mumbai, where I designed and
-					developed key solutions, including an automated assembly line sorting algorithm and a secure
-					authentication process. My role involved collaborating with cross-functional teams, enhancing
-					software functionality, and optimizing user experiences. I also contributed to deploying
-					applications using Azure DevOps, Gitlab and Github and ensured their smooth operation in
-					pre-production and production environments. As a result of being committed to continuous learning
-					and growth, as evidenced by my certification in Machine Learning, and my recognition with the “GoMX
-					Annual Hall of Fame Awards 2022” for exceptional contributions to my team and projects.</p>
-				<p>Throughout my academic and professional journey, I have led several significant projects, which are
-					detailed on my <a href="https://github.com/sagar-sidhwa" target="_blank">GitHub profile (github.com/sagar-sidhwa)</a>. Notable
-					projects include:</p>
-				<ul>
-					<li>Analysis of Cultural Impact on Tech Discussions: Reddit vs YouTube</li>
-					<li>OK Cupid Profiles Analysis</li>
-					<li>Cyberbullying and Fake Account Detection on Social Media</li>
-					<li>Attendance Recognition System Using Facial Recognition</li>
-					<li>Audiobook System</li>
-				</ul>
-				<p>These experiences have provided me with extensive expertise in software and web development, data
-					gathering and analysis, and building machine learning models, demonstrating my ability to address
-					diverse and impactful challenges.</p>
-				<p>My technical expertise is complemented by a diverse set of skills, including hands-on experience in Software Development, Machine Learning, Artificial Intelligence, Data Collection and Analysis, and Data Science Applications. This includes:</p>
-				<div class="container mt-4">
-					<h3 class="text-center mb-4">Programming Languages</h3>
-					<div class="d-flex flex-wrap justify-content-center">
-						<a style="margin: 0.3rem;" class="button mx-8 mb-2">Python</a>
-						<a style="margin: 0.3rem;" class="button mx-4 mb-2">C#</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">SQL</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">JavaScript</a>
-						<a style="margin: 0.3rem;" class="button mx-4 mb-2">TypeScript</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Java</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">C</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">HTML</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">CSS</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">XML</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2" >PHP</a>
-					</div>
-				</div>
-				<br>
-				<div class="container mt-4">
-					<h3 class="text-center mb-4">Platforms : Software Applications, Programming tools and Data Management tools</h3>
-					<div class="d-flex flex-wrap justify-content-center">
-						<a style="margin: 0.3rem;" class="button mx-8 mb-2">Visual Studio Code</a>
-						<a style="margin: 0.3rem;" class="button mx-4 mb-2">Visual Studio</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Git</a>
-						<a style="margin: 0.3rem;" class="button mx-8 mb-2">Postman</a>
-						<a style="margin: 0.3rem;" class="button mx-4 mb-2">Microsoft SQL Server</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Azure DevOps</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Jupyter Notebook</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">GitHub</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">GitLab</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">MongoDB</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">PostgreSQL</a>
-						<a style="margin: 0.3rem;" class="button mx-4 mb-2">PowerBI</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Tableau</a>
-						<a style="margin: 0.3rem;" class="button mx-4 mb-2">Microsoft Excel</a>
-						<a style="margin: 0.3rem;" class="button mx-8 mb-2">Microsoft Office Suite</a>
-						<a style="margin: 0.3rem;" class="button mx-8 mb-2">Linux</a>
-					</div>
-				</div>
-				<br>
-				<div class="container mt-4">
-					<h3 class="text-center mb-4">Frameworks</h3>
-					<div class="d-flex flex-wrap justify-content-center">
-						<a style="margin: 0.3rem;" class="button mx-8 mb-2">ASP.NET Core</a>
-						<a style="margin: 0.3rem;" class="button mx-4 mb-2">ASP.NET Web API</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">AngularJS</a>
-						<a style="margin: 0.3rem;" class="button mx-8 mb-2">Django</a>
-						<a style="margin: 0.3rem;" class="button mx-4 mb-2">Django REST API Framework</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Frontend and Backend development</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Blazor</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Apriso</a>
-					</div>
-				</div>
-				<br>
-				<div class="container mt-4">
-					<h3 class="text-center mb-4">Additional Technologies, Skills, and Libraries Expertise</h3>
-					<div class="d-flex flex-wrap justify-content-center">
-						<!-- <a style="margin: 0.3rem;" class="button mx-2 mb-2">HTML</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">CSS</a> -->
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Machine Learning Algorithms</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Predictive Analysis</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">JSON Parsing</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">XML Parsing</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Data Pipeline</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">UI/UX Development</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Client-Side Development</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Server-Side Development</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Back-End Development</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Bootstrap</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Data Visualization</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">NumPy</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Pandas</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">TensorFlow</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">SciPy</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Matplotlib</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">OpenCV</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Keras</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">PyTorch</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">Scikit-Learn</a>
-						<a style="margin: 0.3rem;" class="button mx-2 mb-2">XGBoost</a>
-					</div>
-				</div>
-				<br>
-				<p>Thank you for taking the time to learn about me. If you’re interested in collaborating or exploring potential opportunities, I’d be delighted to connect. Please feel free to reach out through my social media or drop me a message. Looking forward to connecting with you!</p>
-				<section>
-					<h3>Connect with me (<i class="fas fa-handshake"></i>)</h3>
-					<section>
-						<h3>LinkedIn <i class="fab fa-linkedin fa-1x"></i></h3>
-						<p><a href="https://www.linkedin.com/in/sagar-sidhwa" target="_blank">linkedin.com/in/sagar-sidhwa</a></p>
-					</section>
-					<section>
-						<h3>GitHub <i class="fab fa-github-square fa-1x"></i></h3>
-						<p><a href="https://github.com/sagar-sidhwa" target="_blank">github.com/sagar-sidhwa</a></p>
-					</section>
-					<section>
-						<h3>Instagram <i class="fab fa-instagram-square fa-1x"></i></h3>
-						<p><a href="https://www.instagram.com/sagar_sidhwa/" target="_blank">instagram.com/sagar_sidhwa</a></p>
-					</section>
-				</section>
-			</section>
-			<h2 class="text-center mb-4">Feel Free to drop a Message :)</h2>
-		</div>
+        <!-- About Section -->
+        <section id="education" class="education-section">
+            <div class="education-container">
+                <!-- Left side: Current and Past Education -->
+                <div class="education-info">
+                    <div class="education-box current-education">
+                        <span><i class="fas fa-university" style="font-size: 2rem; color: #333;"></i></span>
+                        <h4> (Currently Pursuing)</h4>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<section>
-				<form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
-					<div class="fields">
-						<input type="hidden" name="access_key" value="3b1294a7-ecfc-406f-be1f-b7a99b035a68">
-						<div class="field">
-							<label for="name">Name</label>
-							<input type="text" name="name" id="name" required />
-						</div>
-						<div class="field">
-							<label for="email">Email</label>
-							<input type="text" name="email" id="email" required />
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="3" required ></textarea>
-						</div>
-					</div>
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" /></li>
-					</ul>
-				</form>
-			</section>
-		</footer>
+                        <header>
+                            <p><strong>Master's in Computer Science (Major: CS Artificial Intelligence) [MSCS-AI]
+                                    @Binghamton University</p></strong>
+                            <p style="font-size: medium;">Binghamton, NY, USA | (Aug 2023 – May 2025)</p>
+                        </header>
+                    </div>
+                    <div class="education-box past-education">
+                        <span><i class="fas fa-graduation-cap" style="font-size: 2rem; color: #9cbadf;"></i></span>
+                        <h4>(Completed)</h4>
+                        <header>
+                            <p><strong>Bachelor's in Computer Engineering @University of Mumbai</p></strong>
+                            <p style="font-size: medium;">Mumbai, India | (Aug 2017 – May 2021)</p>
+                        </header>
+                    </div>
+                </div>
 
-		<!-- Popup -->
-		<div id="popup" class="popup">
-			<p>Thank you for submitting the form. Your message has been sent successfully, and the recipient has been notified. We will make every effort to respond as soon as possible.</p>
-			<button id="ok-button">OK</button>
-		</div>
+                <!-- Right side: Coursework -->
+                <div class="coursework">
+                    <div class="coursework-box">
+                        <span><i class="fas fa-clipboard" style="font-size: 2rem; color: #192947;"></i>
+                            <h3>Coursework</h3>
+                        </span>
+                        <ul class="list-group">
+                            <li class="list-group-item" style="font-size: medium;">Artificial Intelligence</li>
+                            <li class="list-group-item" style="font-size: medium;">Machine Learning</li>
+                            <li class="list-group-item" style="font-size: medium;">Data Mining</li>
+                            <li class="list-group-item" style="font-size: medium;">Social Media Data Science Pipeline
+                            </li>
+                            <li class="list-group-item" style="font-size: medium;">Design & Analysis Comp Algorithms
+                                (Data Structures and Algorithms)</li>
+                            <li class="list-group-item" style="font-size: medium;">Database Systems</li>
+                            <li class="list-group-item" style="font-size: medium;">Programming Languages</li>
+                            <li class="list-group-item" style="font-size: medium;">Operating Systems</li>
+                            <li class="list-group-item" style="font-size: medium;">Systems Programming</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-	</div>
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="skills-container">
+                <!-- First Row: Programming Languages (Left) and Frameworks (Right) -->
+                <div class="skills-box programming-languages">
+                    <span><i class="fas fa-code" style="font-size: 2rem; color: #282a2e;"></i>
+                        <h3>Programming Languages</h3>
+                    </span>
+                    <div class="d-flex flex-wrap gap-3">
+                        <span class="badge custom-badge">Python</span>
+                        <span class="badge custom-badge">C#</span>
+                        <span class="badge custom-badge">SQL</span>
+                        <span class="badge custom-badge">JavaScript</span>
+                        <span class="badge custom-badge">TypeScript</span>
+                        <span class="badge custom-badge">Java</span>
+                        <span class="badge custom-badge">C</span>
+                        <span class="badge custom-badge">HTML</span>
+                        <span class="badge custom-badge">CSS</span>
+                        <span class="badge custom-badge">XML</span>
+                        <span class="badge custom-badge">PHP</span>
+                    </div>
+                </div>
+                <div class="skills-box frameworks">
+                    <span><i class="fas fa-cogs" style="font-size: 2rem; color: #57706e;"></i>
+                        <h3>Frameworks</h3>
+                    </span>
+                    <div class="d-flex flex-wrap gap-3">
+                        <span class="badge custom-badge">ASP.NET Core</span>
+                        <span class="badge custom-badge">ASP.NET Web API</span>
+                        <span class="badge custom-badge">AngularJS</span>
+                        <span class="badge custom-badge">Django</span>
+                        <span class="badge custom-badge">Django REST API Framework</span>
+                        <span class="badge custom-badge">Frontend and Backend development</span>
+                        <span class="badge custom-badge">Blazor</span>
+                        <span class="badge custom-badge">Apriso</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Second Row: Platforms -->
+            <div class="skills-box platforms">
+                <span><i class="fas fa-laptop" style="font-size: 2rem; color: #0d2046;"></i>
+                    <h3>Platforms: Software Applications, Programming tools, and Data Management tools</h3>
+                </span>
+                <div class="d-flex flex-wrap gap-3">
+                    <span class="badge custom-badge">Visual Studio Code</span>
+                    <span class="badge custom-badge">Visual Studio</span>
+                    <span class="badge custom-badge">Git</span>
+                    <span class="badge custom-badge">Postman</span>
+                    <span class="badge custom-badge">Microsoft SQL Server</span>
+                    <span class="badge custom-badge">Azure DevOps</span>
+                    <span class="badge custom-badge">Jupyter Notebook</span>
+                    <span class="badge custom-badge">GitHub</span>
+                    <span class="badge custom-badge">GitLab</span>
+                    <span class="badge custom-badge">MongoDB</span>
+                    <span class="badge custom-badge">PostgreSQL</span>
+                    <span class="badge custom-badge">PowerBI</span>
+                    <span class="badge custom-badge">Tableau</span>
+                    <span class="badge custom-badge">Microsoft Excel</span>
+                    <span class="badge custom-badge">Microsoft Office Suite</span>
+                    <span class="badge custom-badge">Linux</span>
+                </div>
+            </div>
+            <br>
+            <!-- Third Row: Additional Technologies -->
+            <div class="skills-box additional-technologies">
+                <span><i class="fas fa-lightbulb" style="font-size: 2rem; color: #dcb91d;"></i>
+                    <h3>Additional Technologies, Skills, and Libraries Expertise</h3>
+                </span>
+                <div class="d-flex flex-wrap gap-3">
+                    <span class="badge custom-badge">Machine Learning Algorithms</span>
+                    <span class="badge custom-badge">Predictive Analysis</span>
+                    <span class="badge custom-badge">JSON Parsing</span>
+                    <span class="badge custom-badge">XML Parsing</span>
+                    <span class="badge custom-badge">Data Pipeline</span>
+                    <span class="badge custom-badge">UI/UX Development</span>
+                    <span class="badge custom-badge">Client-Side Development</span>
+                    <span class="badge custom-badge">Server-Side Development</span>
+                    <span class="badge custom-badge">Back-End Development</span>
+                    <span class="badge custom-badge">Bootstrap</span>
+                    <span class="badge custom-badge">Data Visualization</span>
+                    <span class="badge custom-badge">NumPy</span>
+                    <span class="badge custom-badge">Pandas</span>
+                    <span class="badge custom-badge">TensorFlow</span>
+                    <span class="badge custom-badge">SciPy</span>
+                    <span class="badge custom-badge">Matplotlib</span>
+                    <span class="badge custom-badge">OpenCV</span>
+                    <span class="badge custom-badge">Keras</span>
+                    <span class="badge custom-badge">PyTorch</span>
+                    <span class="badge custom-badge">Scikit-Learn</span>
+                    <span class="badge custom-badge">XGBoost</span>
+                </div>
+            </div>
+            </div>
+        </section>
 
-	<br><br><br>
+        <div class="about-description">
+            <img src="assets/aboutme.jpg" alt="Sagar Sidhwa" class="about-image">
+            <div class="about-text">
+                <p>Hello, I’m Sagar Sidhwa, currently pursuing a Master’s in Computer Science with a focus and
+                    specialization on Artificial Intelligence (as my major - CS Artificial Intelligence) at (SUNY) State
+                    University of New York at
+                    Binghamton | (Binghamton University). I have a robust background in Machine Learning, AI, Data
+                    Science, and Data Analysis, supported by over two years of professional Software Engineer and
+                    Development experience and a foundational degree in Computer Engineering from the University of
+                    Mumbai. I leverage these skills to develop innovative solutions that integrate software development
+                    with Artificial Intelligence and Machine Learning.</p>
+                <p>My academic journey has provided me with a thorough understanding of both foundational and advanced
+                    technologies. At Binghamton University, I am honing my Master's in Computer Science with an
+                    expertise (Major's) in Artificial Intelligence (MSCS-AI). My coursework, including Design & Analysis
+                    Comp Algorithms (Data Structures and Algorithms), Operating Systems, Introduction To Data Mining,
+                    Social Media Data Science Pipeline, Intro to Machine Learning, Intro to Artificial Intelligence,
+                    Database Systems, Programming Languages, Systems Programming, has further enhanced my expertise in
+                    complex data analysis, model development, and software development and programming.</p>
+                <p>Professionally, I have worked as a Software Engineer at LTIMindtree in Mumbai, where I designed and
+                    developed key solutions, including an automated assembly line sorting algorithm and a secure
+                    authentication process. My role involved collaborating with cross-functional teams, enhancing
+                    software functionality, and optimizing user experiences. I also contributed to deploying
+                    applications using Azure DevOps, Gitlab and Github and ensured their smooth operation in
+                    pre-production and production environments. As a result of being committed to continuous learning
+                    and growth, as evidenced by my certification in Machine Learning, and my recognition with the “GoMX
+                    Annual Hall of Fame Awards” for exceptional contributions to my team and projects.</p>
+                <p>Throughout my academic and professional journey, I have led several significant projects, which are
+                    detailed on my <a class="about-git" href="https://github.com/sagar-sidhwa"
+                        target="_blank"><b><u>GitHub profile (github.com/sagar-sidhwa)</u></b></a>. Notable
+                    projects include:</p>
+                <ul style="text-align: left;">
+                    <li>Analysis of Cultural Impact on Tech Discussions: Reddit vs YouTube</li>
+                    <li>OK Cupid Profiles Analysis</li>
+                    <li>Cyberbullying and Fake Account Detection on Social Media</li>
+                    <li>Attendance Recognition System Using Facial Recognition</li>
+                    <li>Audiobook System</li>
+                </ul>
+                <p>These experiences have provided me with extensive expertise in software and web development, data
+                    gathering and analysis, and building machine learning models, demonstrating my ability to address
+                    diverse and impactful challenges.</p>
+            </div>
+        </div>
+    </section>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+    <section id="experience">
+        <hr>
+        <span><i class="fas fa-briefcase" style="font-size: 2rem; color: #303134;"></i></span>
+        <br>
+        <p>Discover My</p>
+        <br>
+        <div class="alert alert-secondary" role="alert">
+            <div class="experience-header">
+                <h1 class="section-title">Work Experience</h1>
+                <div class="years-of-experience">
+                    <h2>
+                        <span id="experience-counter" class="animated-counter">0</span>+ Years
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="experience-container">
+            <div class="experience-item">
+                <img src="assets/binghamton_university_suny.jpg" alt="Company 1" class="company-logo">
+                <header>
+                    <h3>Binghamton University, Graduate Assistant</h3>
+                    <p>Binghamton, NY, USA | (August 2024 – Present)</p>
+                </header>
+                <blockquote>
+                    <p>Designed and developed a robust diagnostics portal that seamlessly integrates medicine-barcode mapping functionality. This innovation significantly enhanced delivery scheduling efficiency and improved inventory material tracking processes, resulting in a 40% optimization in overall logistics</p>
+                    <p>Engineered an advanced audio frequency enhancement tool using Python and signal processing techniques. The solution simulated diverse patient voice variations, enabling more realistic medical training scenarios for healthcare professionals</p>
+                    <p>Created a scalable remote API pipeline for medical data collection from platforms such as Reddit and YouTube. Leveraged Python for data processing and stored the retrieved data in AWS Snowflake, PostgreSQL, and MongoDB, ensuring efficient cloud-based storage and API access. This system successfully handled large-scale, real-time data retrieval tasks with precision</p>
+                    <p>Implemented a BERT transformer model and performed exploratory data analysis (EDA) with attention mechanisms, time series analysis, and statistical modeling. Integrated generative AI (GenAI) and large language models (LLMs) with hyperparameter tuning, leading to a 38% improvement in model evaluation metrics</p>
+                    <p>Designed a secure connected messaging protocol architecture to streamline communication between doctors and nurses. This architecture ensured efficient and encrypted data exchange within healthcare workflows, fostering improved collaboration and patient care</p>
+                    <p>Built an interactive website featuring data analysis dashboards with advanced filtering algorithms. Users could adjust parameters by time ranges, compare historical and latest results, and access comprehensive reports with detailed insights, enhancing decision-making in healthcare processes</p>
+                    <p>Conducted in-depth analysis of toxic behaviors and cultural influences using natural language processing (NLP) and machine learning techniques. This effort yielded predictive trends, sentiment analysis, and actionable insights, enabling better understanding of behavioral patterns and their implications</p>
+                </blockquote>
+            </div>
+            <div class="experience-item">
+                <img src="assets/ltimindtree.jpg" alt="Company 1" class="company-logo">
+                <header>
+                    <h3>LTIMindtree, Software Engineer</h3>
+                    <p>Mumbai, India | (June 2021 – July 2023)</p>
+                </header>
+                <blockquote>
+                    <blockquote>
+                        <p>Designed and developed an automated assembly line sorting algorithm, rectified a critical
+                            security flaw in the authentication process, and
+                            deployed an equitable new assembly line orders assignment endpoint API
+                        </p>
+                        <p>Collaborated with a team of 5, worked closely with managers and clients to translate
+                            requirements into actionable JIRA tasks, execute user
+                            stories, change requests, ensure adherence to acceptance criteria, evaluate newly reported
+                            issues, and resolve bugs
+                        </p>
+                        <p>Employed a diverse set of technologies, including .NET, .NET Framework, .NET WebAPI, Angular,
+                            JavaScript, C#, Microsoft SQL,
+                            Postman, and Kibana to enhance software functionality and user experience
+                        </p>
+                        <p>Orchestrated deployment to the pre-production and production environment using Azure DevOps,
+                            involved clients in the testing phase,
+                            encouraged feedback and applied further changes as required
+                        </p>
+                        <p>Enhanced the user experience, streamlined production and deployment, and provided optimized
+                            solutions and process enhancements that
+                            improved efficiency, productivity, data protection, reduced manual workload, and earned
+                            client appreciation for the security enhancement
+                        </p>
+                        <p>Implemented a pickle file-based caching algorithm which optimized the system’s speed by 60%,
+                            avoiding redundant model training.</p>
+                    </blockquote>
+            </div>
+            <div class="experience-item">
+                <img src="assets/vesit.jpg" alt="Company 1" class="company-logo">
+                <header>
+                    <h3>VESIT, Software-ML Engineer</h3>
+                    <p>Mumbai, India | (January 2020 – April 2021)</p>
+                </header>
+                <blockquote>
+                    <p>Developed a specialized website using Django and SQL Server tailored for visually impaired users in healthcare. The platform enabled users to learn from audio read-back of scanned text, improving accessibility and inclusivity in healthcare learning environments</p>
+                    <p>Deployed a comprehensive text-to-speech system leveraging Pytesseract, pyttsx3 libraries, and advanced techniques such as text clustering, topic modeling, and text-to-audio alignment mapping. Designed a dynamic data upload section and a structured backend engine, achieving a remarkable 92% system accuracy and providing an intuitive user experience</p>
+                    <p>Collaborated with a team of four to develop a cyberbullying detection and dummy account identification system. Utilized Scikit-Learn, Python, NLP, random forest, and decision tree classification models, along with advanced text classification and anomaly detection techniques. This project resulted in a 78% improvement in system performance, enhancing cybersecurity and user safety</p>
+                    <p>Designed and implemented a UI/UX web page system for streamlined incident notifications to an admin page. Leveraged DevOps practices, Object-Oriented Programming principles, and JavaScript for dynamic functionality. Analyzed crucial features and utilized GitHub for distributed deployment, ensuring efficient and direct issue reporting to the administrative panel</p>
+                </blockquote>
+            </div>
+            <div class="experience-item">
+                <img src="assets/vesit.jpg" alt="Company 1" class="company-logo">
+                <header>
+                    <h3>Vivekanand Education Society's Institute of Technology (VESIT), Machine Learning Engineer Intern</h3>
+                    <p>Mumbai, India | (November 2019 – January 2020)</p>
+                </header>
+                <blockquote>
+                    <p>Developed an "Attendance Monitoring System" in a group of 3 using Django and Machine Learning,
+                        for precise and efficient student attendance tracking.</p>
+                    <p>Performed NLP techniques that enhanced the analysis process and deeply analyzed user-generated
+                        content from online channels, identifying toxic behaviors and assessing regional cultural
+                        influences on technology, education, and advancements.</p>
+                    <p>Implemented a pickle file-based caching algorithm which optimized the system’s speed by 60%,
+                        avoiding redundant model training.</p>
+                </blockquote>
+            </div>
+        </div>
+    </section>
 
-	<!-- Script to check user redirected back properly or not -->
-	<script>
-        // Check if the user came back from the submission page
-        if (sessionStorage.getItem("formSubmitted")) {
-            // Show the popup
-            document.getElementById("popup").classList.add("show");
-            // Clear the session storage
-            sessionStorage.removeItem("formSubmitted");
-        }
+    <section id="projects">
+        <hr>
+        <span><i class="fas fa-project-diagram" style="font-size: 2rem; color: #2b4f5b;"></i></span>
+        <br>
+        <br>
+        <p>Check Out My Recent</p>
+        <div class="alert alert-secondary" role="alert">
+            <div class="experience-header">
+                <h1 id="projects-title" class="section-title">Projects</h1>
+                <div class="projects-completed">
+                    <p id="projects-counter">0</p>
+                    <span>
+                        <p>+ Completed</p>
+                    </span>
+                </div>
+            </div>
+        </div>
 
-        // Handle form submission
-        document.getElementById("contact-form").addEventListener("submit", function() {
-            // Set the flag in session storage
-            sessionStorage.setItem("formSubmitted", "true");
-        });
+        <br>
 
-        // Handle the popup's OK button
-        document.getElementById("ok-button").addEventListener("click", function() {
-            // Redirect to a specific page or refresh the form
-            window.location.href = "aboutme.html";
-        });
-    </script>
+        <!-- Projects List -->
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-item">
+                <img src="assets/okcupid.png" alt="Project 1" class="project-image">
+                <h3 class="project-title">OK CUPID PROFILES ANALYSIS</h3>
+                <p class="project-date">January 2024 – May 2024</p>
+                <p class="project-description">Analyzed OkCupid user profiles to identify patterns in matching
+                    preferences and profile popularity. Collaborated with a team to examine attributes such as age,
+                    height, and body type, while exploring factors like income and lifestyle choices affecting profile
+                    popularity. My contributions provided valuable insights into user behavior, enhancing the
+                    understanding of online dating dynamics and improved matchmaking strategies.</p>
+                <a href="https://github.com/sagar-sidhwa/OkCupid-Profiles-Analysis" target="_blank"
+                    class="explore-project-btn">Explore Project</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-item">
+                <img src="assets/Reddit vs YouTube.png" alt="Project 1" class="project-image">
+                <h3 class="project-title">Analysis of Cultural Impact on Tech Discussions: Reddit vs YouTube</h3>
+                <p class="project-date">August 2023 – December 2023</p>
+                <p class="project-description">Developed an automated system for collecting and analyzing Reddit and
+                    YouTube data using Python, PostgreSQL, and machine learning models. Utilized NLP techniques for
+                    sentiment analysis and trend predictions, while also identifying toxic behaviors and assessing
+                    cultural influences. Automated data processing and visualized insights with Flask, Django, and Power
+                    BI, by data-informed decision-making</p>
+                <a href="https://github.com/sagar-sidhwa/Analysis-of-Cultural-Impact-on-Tech-Discussions-Reddit-vs-YouTube"
+                    target="_blank" class="explore-project-btn">Explore Project</a>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-item">
+                <img src="assets/cyber.jpg" alt="Project 1" class="project-image">
+                <h3 class="project-title">Cyber Bullying and Fake Account Detection in Social Media</h3>
+                <p class="project-date">July 2020 – April 2021</p>
+                <p class="project-description">Developed a Python-Django-based website utilizing advanced logic and NLP
+                    to detect cyberbullying and fake social media accounts. Used Python, SQL Server, and Matplotlib for
+                    data processing, while implementing a Random Forest model to analyze account authenticity. The
+                    solution improved online security, streamlined reporting, and enhanced user experience by
+                    identifying and addressing suspicious activities effectively.</p>
+                <a href="https://github.com/sagar-sidhwa/Cyberbullying-and-Fake-Account-Detection-in-Social-Media---Django-and-Machine-Learning"
+                    target="_blank" class="explore-project-btn">Explore Project</a>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-item">
+                <img src="assets/face_recognition.png" alt="Project 1" class="project-image">
+                <h3 class="project-title">Face Recognition based Attendance Management System</h3>
+                <p class="project-date">July 2019 – April 2020</p>
+                <p class="project-description">Designed a face recognition-based attendance management system using
+                    Python-Django and Machine Learning. Integrated advanced image and face recognition algorithms with
+                    an unique approach for accurate tracking, even with partial face visibility, using Python, SQL,
+                    Pickle, Pandas, and Matplotlib. Optimized system performance by 60% with a caching algorithm to
+                    avoid redundant model training. </p>
+                <a href="https://github.com/sagar-sidhwa/Face-Recognition-Based-Attendance-Management-System-Django-and-Machine-Learning"
+                    target="_blank" class="explore-project-btn">Explore Project</a>
+            </div>
+            <!-- Project 5 -->
+            <div class="project-item">
+                <img src="assets/audiobook.jpg" alt="Project 1" class="project-image">
+                <h3 class="project-title">Audiobook System</h3>
+                <p class="project-date">January 2020 – April 2020</p>
+                <p class="project-description">Created a Python-Django web application to assist visually impaired users
+                    by converting scanned text into speech using libraries like pyttsx3 and Pytesseract. Utilized Django
+                    and SQL Server to build and optimize the app for efficient PDF and text-to-speech conversion.
+                    Collaborated on planning, design, and troubleshooting with the team, ensuring seamless user
+                    experience and functionality.</p>
+                <a href="https://github.com/sagar-sidhwa/AUDIOBOOK-System---Django-and-Machine-Learning" target="_blank"
+                    class="explore-project-btn">Explore Project</a>
+            </div>
+            <!-- Project 6 -->
+            <div class="project-item">
+                <img src="assets/webpizza.jpg" alt="Project 1" class="project-image">
+                <h3 class="project-title">Web Development - Online Pizza Ordering Project</h3>
+                <p class="project-date">January 2019 – May 2019</p>
+                <p class="project-description">Built a web-based application that enables customers to order pizzas
+                    online, view order history, modify orders, and track deliveries. Developed collaboratively by a team
+                    of three, I was primarily responsible for designing the major (UI/UX) user interface pages and
+                    implementing key Backend functionalities, contributing to a robust and efficient ordering system.
+                </p>
+                <a href="https://github.com/sagar-sidhwa/Web-Development-Laravel--Online-Pizza-Ordering-System"
+                    target="_blank" class="explore-project-btn">Explore Project</a>
+            </div>
+        </div>
+        <br>
+        <div class="paper-box">
+            <span>
+                <h1 class="explore_projects">Explore More Porjects here</h3><a href="https://github.com/sagar-sidhwa"
+                        target="_blank" class="explore-project-btn"><i class="fas fa-directions fa-1x"></i> View All
+                        Projects Project</a>
+            </span>
+        </div>
+    </section>
 
+
+    <!-- Research Section -->
+    <section id="research" class="research-section">
+        <hr>
+        <br>
+        <br>
+        <div class="alert alert-secondary" role="alert">
+            <div class="section-title-container">
+                <span><i class="fas fa-flask" style="font-size: 2rem; color: #718cd5;"></i></span>
+                <p>Look Through My Research</p>
+                <h1 class="section-title">Research</h1>
+            </div>
+        </div>
+        <br>
+
+        <!-- Research Stats Row -->
+        <div class="research-stats">
+            <div class="research-box papers-published">
+                <h3>Papers Published</h3>
+                <p>2</p>
+            </div>
+            <div class="research-box awards">
+                <h3>Awards</h3>
+                <p>2</p>
+            </div>
+            <div class="research-box certifications">
+                <h3>Certifications</h3>
+                <p>5+</p>
+            </div>
+        </div>
+
+        <!-- Papers Published Section -->
+        <section id="papers-published" class="papers-published-section">
+            <span><i class="fas fa-newspaper" style="font-size: 2rem; color: #424347;"></i></span>
+            <h3>Papers Published</h3>
+            <div class="papers-published-container">
+
+                <!-- Paper Box 1 -->
+                <div class="paper-box">
+                    <p>Joseph, Richard and Samtani, Jayesh and Sidhwa, Sagar and Tiwari, Somesh and Wadhwani, Riya,
+                        <strong> <a style="color: #333;"
+                                href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3866108"
+                                target="_blank">“Cyber bullying and Fake Account
+                                Detection in Social Media”</a></strong>, Jun’21, Proceedings of the 4th International
+                        Conference on Advances in Science & Technology (ICAST2021)</p>
+                    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3866108" target="_blank"
+                        class="explore-paper-btn">ELSEVIER</a>
+                </div>
+
+                <!-- Paper Box 2 -->
+                <div class="paper-box">
+                    <p>Doultani, Mannat, Yogesh Tekwani, Somesh Tiwari, and Sagar Sidhwa, <strong><a
+                                style="color: #333;"
+                                href="https://smsjournals.com/index.php/SAMRIDDHI/article/view/1944"
+                                target="_blank">"Attendance Recognition System using Face Appearance"</a></strong>, Vol
+                        12 No
+                        SUP 1 (2020): Jun’20, SAMRIDDHI: A Journal of Physical Sciences, Engineering and Technology</p>
+                    <a href="https://smsjournals.com/index.php/SAMRIDDHI/article/view/1944" target="_blank"
+                        class="explore-paper-btn">SAMRIDDHI</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section id="awards" class="awards-section">
+            <span><i class="fas fa-trophy" style="font-size: 2rem; color: #2e364b;"></i></span>
+            <h3>Awards</h3>
+            <div class="awards-container">
+                <!-- Award Box 1 -->
+                <div class="award-box">
+                    <table>
+                        <tbody style="text-align: left;">
+                            <tr>
+                                <td>● Recognized with the prestigious <b>"GoMX Annual Hall of Fame Awards 2022"</b>,
+                                    achieving the title of <b>"Business Unit of the Year"</b>
+                                    commended for exemplary dedication, ownership, and trust demonstrated in
+                                    contributions to the MFGOG project and team.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>● Achieved <b>top position</b> at the inter-department district level round of
+                                    <b>Avishkar-2019-20</b>, an inter-university <b>research project competition.</b>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications-section">
+            <span><i class="fas fa-certificate" style="font-size: 2rem; color: #0c1630;"></i></span>
+            <div class="certifications-container">
+                <h3>Certifications</h3>
+                <!-- Certification Box 1 -->
+                <div class="certification-box">
+                    <table>
+                        <tbody style="text-align: left;">
+                            <tr>
+                                <td>● Completed the <b>"Machine Learning using Python in Data Science"</b> and
+                                    <b>"Android Developer Course"</b> from Udemy.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>● Completed multiple <b>Oracle courses and certificates</b> on <b>Artificial
+                                        Intelligence with Machine Learning, Database Design and Programming
+                                        with SQL, Java Programming Cumulative Final Exam.</b>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+        <br><br>
+        <div class="container">
+            <hr>
+        </div>
+        <br><br>
+        <div class="contact-container">
+            <h2 class="section-title"> <span><i class="fas fa-envelope"></i></span> Feel Free to drop a Message :)</h2>
+            <br>
+            <div class="contact-row">
+                <!-- Left Column -->
+                <div class="contact-left">
+                    <!-- Description Row -->
+                    <div class="contact-description">
+                        <p>
+                            Thank you for taking the time to learn about me. I'm actively looking for new opportunities
+                            and collaborations. Feel free to reach out if you're interested in connecting or discussing
+                            potential projects!
+                        </p>
+                    </div>
+                    <h3>Connect with me (<i class="fas fa-handshake"></i>)</h3>
+                    <!-- Social Media Links Row -->
+                    <div class="contact-links">
+                        <section>
+                            <h3>LinkedIn <i class="fab fa-linkedin fa-1x"></i></h3>
+                            <p><a href="https://www.linkedin.com/in/sagar-sidhwa"
+                                    target="_blank">linkedin.com/in/sagar-sidhwa</a></p>
+                        </section>
+                        <section>
+                            <h3>GitHub <i class="fab fa-github-square fa-1x"></i></h3>
+                            <p><a href="https://github.com/sagar-sidhwa" target="_blank">github.com/sagar-sidhwa</a></p>
+                        </section>
+                        <section>
+                            <h3>Instagram <i class="fab fa-instagram-square fa-1x"></i></h3>
+                            <p><a href="https://www.instagram.com/sagar_sidhwa/"
+                                    target="_blank">instagram.com/sagar_sidhwa</a></p>
+                        </section>
+                    </div>
+                </div>
+                <!-- Right Column -->
+                <div class="contact-form">
+                    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="3b1294a7-ecfc-406f-be1f-b7a99b035a68">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="4" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" value="Send Message" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <h4>Developed by @Sagar Sidhwa</h4>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
