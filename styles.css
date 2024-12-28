@@ -92,6 +92,7 @@ body {
 
 #profile .profile-text {
     max-width: 600px;
+    text-align: justify;
 }
 
 #profile h1 {
@@ -135,6 +136,11 @@ body {
 
     #profile p {
         font-size: 1rem;
+    }
+
+    #profile .profile-text {
+        max-width: 600px;
+        text-align: justify;
     }
 }
 
@@ -355,7 +361,7 @@ body {
 }
 
 .about-text p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #333;
     line-height: 1.6;
     text-align: justify; /* Ensure text is justified for better readability */
@@ -375,7 +381,13 @@ body {
     .about-image {
         width: 80%;
     }
+
+    .about-text p {
+        font-size: 0.9rem;
+    }
 }
+
+
 
 
 /* Skills Section */
@@ -403,14 +415,14 @@ body {
 }
 
 .skills-box h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
     color: #333;
+    text-align: justify;
 }
 
 .skills-box ul {
     list-style-type: none;
-    padding: 0;
 }
 
 .skills-box ul li {
@@ -422,6 +434,12 @@ body {
 /* First Row: Programming Languages */
 .platforms {
     grid-column: span 1; /* Spans the full row */
+    
+}
+
+.skills-box.platforms, .skills-box.additional-technologies{
+    display: table;
+    padding: inherit;
 }
 
 /* Second Row: Platforms (Left) and Frameworks (Right) */
@@ -436,6 +454,7 @@ body {
 
 /* Responsive Layout for Larger Screens */
 @media (min-width: 768px) {
+
     .skills-container {
         grid-template-columns: 1fr 1fr; /* Two columns layout for medium screens */
     }
@@ -449,23 +468,57 @@ body {
     .platforms, .additional-technologies {
         grid-column: span 2; /* Spans the full width */
     }
+
 }
 
-@media (min-width: 768px) {
-    .skills-container {
-        grid-template-columns: 1fr 1fr; /* Maintain two columns for larger screens */
-    }
-}
 
 
 .custom-badge {
     background-color: #333; /* Dark background */
     color: white; /* White text */
-    padding: 10px 20px; /* Padding to make it oval */
-    border-radius: 30px; /* Rounded corners to make it oval */
-    font-size: 16px; /* Font size */
+    padding: 5px 10px; /* Adjusted padding for better fit */
+    border-radius: 20px; /* Rounded corners to make it oval */
+    font-size: 15px; /* Reduced font size */
     font-weight: 500; /* Optional, to make text bold */
+    display: inline-block; /* Ensure it wraps neatly around content */
+    text-align: center; /* Center-align text */
+    white-space: nowrap; /* Prevent text wrapping */
 }
+
+@media (min-width: 768px) {
+    .skills-container {
+        grid-template-columns: 1fr 1fr; /* Maintain two columns for larger screens */
+    }  
+}
+
+
+@media (max-width: 768px) {
+    .skills-container {
+        display: block;
+        justify-content: center; 
+
+    }
+    
+    .skills-box.programming-languages{
+        margin: 0rem 0rem 1.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .custom-badge{
+        font-size: 10px;
+    }
+
+    .about-text p{
+        font-size: 0.8rem;
+    }
+
+    .about-image{
+        width: 100%;
+    }
+}
+
 
 /* Experience Section */
 #experience {
@@ -576,7 +629,7 @@ body {
 .experience-item blockquote {
     margin: 0;
     padding: 0;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     color: #333;
     line-height: 1.6;
     text-align: left;
@@ -655,6 +708,31 @@ body {
 }
 
 
+@media (max-width: 700px) {
+
+    .experience-item header h3 {
+        font-size: 1.1rem;
+    }
+
+    .experience-item header p {
+        font-size: 0.8rem;
+    }
+
+    .experience-item blockquote p {
+        font-size: 0.7rem;
+    }
+
+    .experience-item blockquote p::before{
+        font-size: 0.9rem;
+    }
+
+    .company-logo {
+        height: 100px;
+    }
+}
+
+
+
 /* Example CSS animation */
 @keyframes showExperience {
     from {
@@ -674,11 +752,16 @@ body {
 
   .company-logo {
     width: 100%;  /* Adjust size of the logo */
-    height: 150px;
+    height: 125px;
     border-radius: 5px;  /* Optional: for rounded corners */
     margin-bottom: 10px;
 }
 
+@media (max-width: 450px) {
+    .company-logo {
+        height: 75px;
+    }
+}
 
 /* Projects Section */
 #projects {
@@ -776,7 +859,7 @@ body {
 
 /* Project Title */
 .project-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #333;
     margin-bottom: 0.5rem;
@@ -784,16 +867,17 @@ body {
 
 /* Project Date */
 .project-date {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     color: #777;
     margin-bottom: 1rem;
 }
 
 /* Project Description */
 .project-description {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #555;
     line-height: 1.6;
+    text-align: justify;
 }
 
 /* Hover Effect */
@@ -873,6 +957,29 @@ body {
     }
 }
 
+@media(max-width: 450px){
+    .project-description {
+        font-size: 0.7rem;
+        text-align: justify;
+    }
+
+    .project-title {
+        font-size: 1rem;
+    }
+
+    .project-date {
+        font-size: 0.8rem;
+    }
+
+    .project-image {
+        height: 100px;
+    }
+
+    .explore-project-btn {
+        padding: 0.5rem 1rem;
+    }
+}
+
 /* Fade-In Effect on Hover for Experience and Projects Items */
 .project-item, .experience-item {
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Smooth transition */
@@ -926,9 +1033,26 @@ body {
 
 /* Adjust for smaller screens */
 @media (max-width: 768px) {
-    .education-box, .coursework-box, .skills-box {
-        width: 90%; /* Use more width on smaller screens */
-        margin-left: 5%; /* Center the items on smaller screens */
+    .education-box{
+        width: 100%; /* Use more width on smaller screens */
+        margin-left: auto; /* Center the items on smaller screens */
+    }
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .coursework-box{
+        width: 100%; /* Use more width on smaller screens */
+        margin-left: auto; /* Center the items on smaller screens */
+    }
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .skills-box {
+        width: 100%; /* Use more width on smaller screens */
+        margin-left: auto; /* Center the items on smaller screens */
+
     }
 }
 
@@ -956,7 +1080,7 @@ body {
 
 /* Work Research Title */
 .section-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #222;
     text-transform: uppercase;
@@ -1230,7 +1354,7 @@ body {
 
 /* Description Styling */
 .contact-description {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.8;
     color: #ffffff; /* Ensure white text */
 }
@@ -1344,6 +1468,17 @@ body {
     }
 }
 
+
+@media(max-width: 450px){
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .contact-description {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
 
 /* Footer Section */
 .footer {
