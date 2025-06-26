@@ -38,7 +38,7 @@ My expertise spans across both academic and industry settings, integrating softw
 ## Projects
 
 Here are some of the notable projects that I have worked on:
-
+- **[AI | Machine Learning | GenAI | LLM | RAG | Projects](https://github.com/sagar-sidhwa/Machine-Learning-Data-Science-Projects)**: A collection of hands-on projects in Machine Learning, AI, and Deep Learning, covering classification, regression, NLP, and Generative AI.
 - **[OK Cupid Profiles Analysis](https://github.com/sagar-sidhwa/OkCupid-Profiles-Analysis)**: An examination of profiles on OK Cupid to derive insights.
 - **[Analysis of Cultural Impact on Tech Discussions: Reddit vs YouTube](https://github.com/sagar-sidhwa/Analysis-of-Cultural-Impact-on-Tech-Discussions-Reddit-vs-YouTube)**: A comprehensive analysis of tech discussions across Reddit and YouTube.
 - **[Cyberbullying and Fake Account Detection on Social Media](https://github.com/sagar-sidhwa/Cyberbullying-and-Fake-Account-Detection-in-Social-Media---Django-and-Machine-Learning)**: A system developed to detect cyberbullying and fake accounts on social media platforms.
@@ -54,13 +54,13 @@ Here are some of the notable projects that I have worked on:
 - Visual Studio Code, Visual Studio, Git, Postman, Microsoft SQL Server, Azure DevOps, Jupyter Notebook, GitHub, GitLab, MongoDB, PostgreSQL, PowerBI, Tableau, Microsoft Excel, Microsoft Office Suite, Linux
 
 ### Frameworks
-- ASP.NET Core, ASP.NET Web API, AngularJS, Django, Django REST API, Blazor, Apriso
+- FastAPI, Django, Django REST API, ReactJS, ASP.NET Core, ASP.NET Web API, AngularJS, Blazor, Apriso
 
 ### Additional Technologies and Libraries
 - Machine Learning Algorithms, Predictive Analysis, JSON Parsing, XML Parsing, Data Pipeline, UI/UX Development, Client-Side Development, Server-Side Development, Back-End Development, Bootstrap, Data Visualization, NumPy, Pandas, TensorFlow, SciPy, Matplotlib, OpenCV, Keras, PyTorch, Scikit-Learn, XGBoost
 
 ## Contact
 
-Thank you for visiting my portfolio. If you’re interested in collaborating or exploring potential opportunities, I’d be delighted to connect. Please feel free to reach out through my [LinkedIn](https://www.linkedin.com/in/sagar-sidhwa) or drop me a [message](https://sagar-sidhwa.github.io/aboutme).
+Thank you for visiting my portfolio. If you’re interested in collaborating or exploring potential opportunities, I’d be delighted to connect. Please feel free to reach out through my [LinkedIn](https://www.linkedin.com/in/mr-s-sagar) or drop me a [message](https://sagar-sidhwa.github.io/aboutme).
 
 Looking forward to connecting with you!

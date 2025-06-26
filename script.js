@@ -27,7 +27,7 @@ function animateCounter(elementId, start, end, duration) {
 
 // Trigger the counter animation when the page loads
 document.addEventListener("DOMContentLoaded", () => {
-    animateCounter("experience-counter", 0, 3, 2000); // Animate from 0 to 5 over 2 seconds
+    animateCounter("experience-counter", 0, 5, 2000); // Animate from 0 to 5 over 2 seconds
 });
 
 // When the "Experience" navbar link is clicked
@@ -41,7 +41,7 @@ $(document).ready(function() {
             scrollTop: $('#experience').offset().top
         }, 10, 'linear', function() { // Use 'linear' for smooth consistent speed
             // Once the scroll is complete, start the counter animation
-            animateCounter("experience-counter", 0, 3, 2000); // Animate from 0 to 5 over 2 seconds
+            animateCounter("experience-counter", 0, 5, 2000); // Animate from 0 to 5 over 2 seconds
         });
     });
 });
