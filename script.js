@@ -49,7 +49,7 @@ $(document).ready(function() {
 
 // Trigger the counter animation when the page loads
 document.addEventListener("DOMContentLoaded", () => {
-    animateCounter("projects-counter", 0, 15, 2000); // Animate from 0 to 10 over 2 seconds
+    animateCounter("projects-counter", 0, 20, 2000); // Animate from 0 to 10 over 2 seconds
 });
 
 // When the "Projects" navbar link is clicked
@@ -63,7 +63,7 @@ $(document).ready(function() {
             scrollTop: $('#projects').offset().top
         }, 10, 'swing', function() {
             // Once the scroll is complete, start the counter animation
-            animateCounter("projects-counter", 0, 15, 2000); // Animate from 0 to 10 over 2 seconds
+            animateCounter("projects-counter", 0, 20, 2000); // Animate from 0 to 10 over 2 seconds
         });
     });
 });
